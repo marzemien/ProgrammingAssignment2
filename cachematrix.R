@@ -1,5 +1,7 @@
-## Put comments here that give an overall description of what your
-## functions do
+## Dear grader. I've put the course's instructions in parentheses. It's very likely that
+## you're alread familiar with them.
+##( Put comments here that give an overall description of what your
+## functions do)
 
 # The function makeCacheMatrix() and cacheSolve() are used to create, store, and find the inverse 
 # of a matrix. The cache can prevent time-consuming repeate calculations by finding a previous 
@@ -14,7 +16,7 @@
 # then output the stored inverse, rather than running the calculation again. 
 # Only square matricies (lenght = width) are invertable. 
 
-## Write a short comment describing this function.
+## (Write a short comment describing this function.)
 
 # makeCacheMatrix() takes a matrix as an argument. This funciton should be assigned to 
 # object. Note that subsequenlty calling that object will output a list. 
@@ -33,8 +35,7 @@ makeCacheMatrix <- function(x = matirx()) {
        getinverse = getinverse)
 }
 
-
-## Write a short comment describing this function
+## (Write a short comment describing this function)
 
 # Cache solve takes an the object that makeCacheMatrix() has been assigned and returns its
 # 3inverse by using R's solve() function. 
